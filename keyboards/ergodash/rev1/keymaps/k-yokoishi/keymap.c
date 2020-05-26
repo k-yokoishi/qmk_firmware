@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   /* Raise
    * ,----------------------------------------------------------------------------------------------------------------------.
-   * | Esc  |   1  |   2  |   3  |   4  |   5  |  `   |                    |   =  |   6  |   7  |   8  | Mute | Vol- | Vol+ |
+   * | Esc  |LghtUp|LghtDw|   3  |   4  |   5  |  `   |                    |   =  |   6  |   7  |   8  | Mute | Vol- | Vol+ |
    * |------+------+------+------+------+------+------+--------------------+------+------+------+------+------+------+------|
    * | Tab  |   1  |   2  |   3  |   4  |   5  |  [   |                    |   ]  |   6  |   7  |   8  |   9  |   0  |  \   |
    * |------+------+------+------+------+------+------+--------------------+------+------+------+------+------+------+------|
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,----------------------------------------------------------------------------------------------------------------------.
    */
   [_RAISE] = LAYOUT_4key_2u_inner(
-    KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_GRV,                         KC_EQL,  KC_6,    KC_7,    KC_8,    KC__MUTE, KC__VOLDOWN, KC__VOLUP, \
+    KC_ESC,  KC_BRMD, KC_BRMU, KC_3,    KC_4,    KC_5,    KC_GRV,                         KC_EQL,  KC_6,    KC_7,    KC_8,    KC__MUTE, KC__VOLDOWN, KC__VOLUP, \
     KC_TAB,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_LBRC,                        KC_RBRC, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSLS, \
     KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    _______,                        KC_B,    KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_SCLN, KC_QUOT, \
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_SPC,                         KC_LALT, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_UP, \
